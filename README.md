@@ -2,6 +2,8 @@
 
 Gifmagazine API v1 client library written in Ruby.
 
+※This client gem is yet beta version.So, this is not covered all endpoints.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -27,6 +29,10 @@ client = Gifmagazine::Client.new(token: '')
 client.search({q: '猫', limit: 2, offset: 0})
 client.emotion({q: 'joy', limit: 2, offset: 0})
 ```
+
+Public api does not need a token.Token is for sales.
+
+See [here](https://github.com/creative-box-inc/Gifmagazine-API-Documentation) for more detail.
 
 ## License
 
