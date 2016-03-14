@@ -10,7 +10,7 @@ module Gifmagazine
       @body
     end
 
-    def header
+    def headers
       @header
     end
 
