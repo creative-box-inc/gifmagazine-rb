@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Gifmagazine API v1 client library written in Ruby.}
   spec.description   = %q{Gifmagazine API v1 client library written in Ruby.}
-  spec.homepage      = "http://api.gifmagazine.net/"
+  spec.homepage      = "https://github.com/creative-box-inc/gifmagazine-rb"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

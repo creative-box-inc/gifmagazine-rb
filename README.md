@@ -9,7 +9,7 @@ Gifmagazine API v1 client library written in Ruby.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'gifmagazine-rb'
+gem 'gifmagazine'
 ```
 
 And then execute:
@@ -18,12 +18,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install gifmagazine-rb
+    $ gem install gifmagazine
 
 ## Usage
 
 ```
-require 'gifmagazine-rb'
+require 'gifmagazine'
 
 client = Gifmagazine::Client.new(token: '')
 client.gifs_search({q: '猫', limit: 2, offset: 0})
